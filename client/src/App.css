@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+}
+
+.App {
+  text-align: center;
+  height: 500vh;
+  font-size: 20px;
+  font-weight: 100;
+  word-spacing: 1px;
+  line-height: 1.45em;
+  font-family: "Ubuntu", "Sharp Sans No1", Sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.main-page {
+  padding-top: 20px;
+}
+
+.home-nav {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sign-up {
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: 200;
+  
+}
+
+.signup-form {
+  padding-top: 60px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+  height: 600px;
+
+}
+.signup-form1{
+  height: 600px;
+  padding-left: 40px;
+  margin-left:10px
+}
+
+.signin-onUp {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.home-page {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 30px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.user-account {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+}
+
+.user-card {
+  margin-top: 30px;
+}
+/* input[type="utext"],input[type="unumber"],input[type="uemail"], select,textarea {
+  width: 300px;
+  height:40px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+  
+
+
+} */
+spam{
+  color:red
+}
+.custom-menu-item {
+ background-color:   #2185d0 !important; /* White text */
+  transition: background-color 1.0s ease, transform 0.3s ease;/* Smooth background color change on hover */
+  font-size: 12px ;
+padding-left: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
