@@ -17,8 +17,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -31,8 +30,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -1048,7 +1046,7 @@
   "sourceMap": "56:338:1:-:0;;;225:49;;;;;;;;;;257:10;249:5;;:18;;;;;;;;;;;;;;;;;;56:338;;;;;;",
   "deployedSourceMap": "56:338:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;108:39;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;82:20;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;280:112;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;108:39;;;;:::o;82:20::-;;;;;;;;;;;;:::o;280:112::-;204:5;;;;;;;;;;190:19;;:10;:19;;;186:26;;;376:9:::1;349:24;:36;;;;186:26:::0;280:112;:::o;7:139:3:-;53:5;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:329::-;211:6;260:2;248:9;239:7;235:23;231:32;228:2;;;266:79;;:::i;:::-;228:2;386:1;411:53;456:7;447:6;436:9;432:22;411:53;:::i;:::-;401:63;;357:117;218:263;;;;:::o;487:118::-;574:24;592:5;574:24;:::i;:::-;569:3;562:37;552:53;;:::o;611:118::-;698:24;716:5;698:24;:::i;:::-;693:3;686:37;676:53;;:::o;735:222::-;828:4;866:2;855:9;851:18;843:26;;879:71;947:1;936:9;932:17;923:6;879:71;:::i;:::-;833:124;;;;:::o;963:222::-;1056:4;1094:2;1083:9;1079:18;1071:26;;1107:71;1175:1;1164:9;1160:17;1151:6;1107:71;:::i;:::-;1061:124;;;;:::o;1272:96::-;1309:7;1338:24;1356:5;1338:24;:::i;:::-;1327:35;;1317:51;;;:::o;1374:126::-;1411:7;1451:42;1444:5;1440:54;1429:65;;1419:81;;;:::o;1506:77::-;1543:7;1572:5;1561:16;;1551:32;;;:::o;1712:117::-;1821:1;1818;1811:12;1835:122;1908:24;1926:5;1908:24;:::i;:::-;1901:5;1898:35;1888:2;;1947:1;1944;1937:12;1888:2;1878:79;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.6;\n\ncontract Migrations {\n    address public owner;\n    uint256 public last_completed_migration;\n\n    modifier restricted() {\n        if (msg.sender == owner) _;\n    }\n\n    constructor() {\n        owner = msg.sender;\n    }\n\n    function setCompleted(uint256 completed) public restricted {\n        last_completed_migration = completed;\n    }\n}\n",
-  "sourcePath": "D:\\Signin\\contracts\\Migrations.sol",
+  "sourcePath": "D:\\SignIn\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -1454,19 +1452,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xe375b60b7A83d6C8c90D02e51575205a8ed31868",
-      "transactionHash": "0xad1ffcb0f5b481da2a5bdf2baa9d1bf1def5fea9e6d1db04b059ec11269d19da"
-    },
-    "1688762299058": {
-      "events": {},
-      "links": {},
-      "address": "0x6f07646ccba12a1696Ee10733838742aFee8a1Ce",
-      "transactionHash": "0x4953fe886ba8d3e03975f01680de48bf11047bc2b409407886118a98efa1454f"
+      "address": "0x5B779800A9a5c54A0DEe16aD55985390E1dA84EF",
+      "transactionHash": "0x033f6ecee74a53b0aa1e14a02427b838fe8472b23e7ce8aea54031d64ca1fdce"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-09-10T16:48:04.826Z",
-  "networkType": "ethereum",
+  "updatedAt": "2024-11-09T05:06:21.404Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

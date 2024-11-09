@@ -1,36 +1,39 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.6;
+
+pragma solidity 0.8.6;
 
 contract PersonalDetails {
-    struct Person {
-        string name;
+    struct HealthRecord {
         uint age;
-        string addressInfo;
-        string email;
+        uint bloodPressure;
+        uint sex;
+        uint cp;
+        uint thalach;
+        uint oldpeak;
+        bool exists; // Marker to check if the record exists
     }
 
-    mapping(address => Person) private people;
+    mapping(address => HealthRecord) private records;
 
-    // Event to emit when a person is added, updated, or deleted
-    event PersonAdded(address indexed personAddress, string name, uint age, string addressInfo, string email);
-    event PersonUpdated(address indexed personAddress, string name, uint age, string addressInfo, string email);
-    event PersonDeleted(address indexed personAddress);
+    // Event for logging purposes
+    event RecordUpdated(address indexed user, uint age, uint bloodPressure, uint sex, uint cp, uint thalach, uint oldpeak);
 
-    // Function to add or update personal details
-    function addOrUpdatePerson(string memory _name, uint _age, string memory _addressInfo, string memory _email) public {
-        people[msg.sender] = Person(_name, _age, _addressInfo, _email);
-        emit PersonAdded(msg.sender, _name, _age, _addressInfo, _email);
+    // Create or Update
+    function setRecord(uint _age, uint _bloodPressure, uint _sex, uint _cp, uint _thalach, uint _oldpeak) public {
+        records[msg.sender] = HealthRecord(_age, _bloodPressure, _sex, _cp, _thalach, _oldpeak, true);
+        emit RecordUpdated(msg.sender, _age, _bloodPressure, _sex, _cp, _thalach, _oldpeak);
     }
 
-    // Function to delete personal details
-    function deletePerson() public {
-        delete people[msg.sender];
-        emit PersonDeleted(msg.sender);
+    // Read
+    function getRecord() public view returns (uint, uint, uint, uint, uint, uint) {
+        require(records[msg.sender].exists, "Record does not exist");
+        HealthRecord storage record = records[msg.sender];
+        return (record.age, record.bloodPressure, record.sex, record.cp, record.thalach, record.oldpeak);
     }
 
-    // Function to retrieve personal details
-    function getPerson(address _personAddress) public view returns (string memory, uint, string memory, string memory) {
-        Person memory person = people[_personAddress];
-        return (person.name, person.age, person.addressInfo, person.email);
+    // Delete
+    function deleteRecord() public {
+        require(records[msg.sender].exists, "Record does not exist");
+        delete records[msg.sender];
     }
 }
