@@ -7,6 +7,7 @@ const initialState = {
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -14,27 +15,29 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
- 
-    
+    console.log(name, email, message); // Check if the form data is correct
+
+    // Ensure these are correct, replace with your actual service, template, and public key
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+    .sendForm("service_mnf59rj", "template_w3ywxtq", e.target, "8O5Lsghnu5pntLIL6")
       .then(
         (result) => {
-          console.log(result.text);
-          clearState();
+          console.log("Email sent successfully:", result.text); // Check for success
+          alert("Message sent successfully!"); // Success alert
+          clearState(); // Clear the form after success
         },
         (error) => {
-          console.log(error.text);
+          console.error("Error sending email:", error.text); // Check for errors
+          alert("Failed to send message. Please try again."); // Error alert
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -48,10 +51,10 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
+              <form name="sentMessage" onSubmit={handleSubmit}>
+                <div className="row" style={{ padding: 20 }}>
+                  <div className="col-md-7">
+                    <div className="" style={{ padding: 10 }}>
                       <input
                         type="text"
                         id="name"
@@ -59,13 +62,14 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name} // Bind the input to the state
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
+                  <div className="col-md-7">
+                    <div className="" style={{ padding: 10 }}>
                       <input
                         type="email"
                         id="email"
@@ -73,20 +77,22 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email} // Bind the input to the state
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
                 </div>
-                <div className="form-group">
+                <div className="" style={{ padding: 6 }}>
                   <textarea
                     name="message"
                     id="message"
                     className="form-control"
-                    rows="4"
+                    rows="6"
                     placeholder="Message"
                     required
+                    value={message} // Bind the input to the state
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
@@ -153,10 +159,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            &copy; 2024 AI Health Predict Design by{" "}
+            Student Developers
           </p>
         </div>
       </div>

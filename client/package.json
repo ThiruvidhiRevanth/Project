@@ -5,6 +5,8 @@
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.4.1",
     "dotenv": "^6.2.0",
+    "emailjs-com": "^3.2.0",
+    "ganache": "^7.9.2",
     "ipfs-mini": "^1.1.5",
     "react": "16.11.0",
     "react-dom": "16.11.0",

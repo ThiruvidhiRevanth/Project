@@ -1,184 +1,187 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "AI Health Predict",
+    "paragraph": "AI Health Predict is a cutting-edge platform merging AI and blockchain to deliver accurate disease risk predictions while ensuring secure and private health data storage."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "AI Health Predict combines the power of Artificial Intelligence and Blockchain to provide accurate disease risk predictions while ensuring the highest standards of data security and privacy. Using advanced AI models, the platform analyzes health data to deliver personalized insights, while blockchain technology guarantees secure, tamper-proof storage of sensitive information. Built on Ethereum, HealthPredictAI aims to transform healthcare by enabling proactive disease management and improving overall health outcomes.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "AI-powered accurate predictions",
+      "Blockchain-based data security",
+      "Personalized healthcare insights",
+      "Robust privacy protection standards"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Secure Ethereum-based ",
+      "Revolutionizing disease ",
+      "data privacy encryption",
+      "AI-driven healthcare solutions"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "AI-Driven Predictive Analytics",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Blockchain Data Security",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Personalized Healthcare Analytics",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Real-Time Predictive Dashboards",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "End-to-End Data Privacy",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Innovative User Interface",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Revolutionizing Healthcare with AI",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Ethical Data Ownership Solutions",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Future-Ready Health Technologies",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
+ "Services": [
+  {
+    "icon": "fa fa-heartbeat",
+    "name": "AI-Powered Health Predictions",
+    "text": "Utilizing advanced AI models to provide accurate disease risk analysis and personalized healthcare insights."
+  },
+  {
+    "icon": "fa fa-lock",
+    "name": "Blockchain Data Security",
+    "text": "Ensuring secure, tamper-proof storage of sensitive health data using blockchain technology."
+  },
+  {
+    "icon": "fa fa-cloud-upload",
+    "name": "Data Encryption",
+    "text": "Encrypting health data to protect privacy and maintain confidentiality throughout the entire process."
+  },
+  {
+    "icon": "fa fa-cogs",
+    "name": "Real-Time Predictive Analytics",
+    "text": "Delivering real-time healthcare predictions and actionable insights to enable proactive health management."
+  },
+  {
+    "icon": "fa fa-pie-chart",
+    "name": "Health Outcome Optimization",
+    "text": "Optimizing health outcomes with AI-driven models for disease prevention and personalized care."
+  },
+  {
+    "icon": "fa fa-users",
+    "name": "Scalable Healthcare Solutions",
+    "text": "Providing scalable solutions to meet the needs of both individuals and healthcare providers."
+  }
+],
+"Testimonials": [
+  {
+    "img": "img/testimonials/01.jpg",
+    "text": "\"HealthPredictAI to disease management and risk prediction. The integration of AI and blockchain is truly groundbreaking!\"",
+    "name": "Dr. Sarah Lee"
+  },
+  {
+    "img": "img/testimonials/02.jpg",
+    "text": "\"The secure and accurate health insights provided by HealthPredictAI have allowed us to make proactive healthcare decisions with confidence.\"",
+    "name": "Dr. Mark Stevens"
+  },
+  {
+    "img": "img/testimonials/03.jpg",
+    "text": "\"HealthPredictAI offers exceptional security and predictive accuracy that helps us prevent diseases and optimize treatment strategies for patients.\"",
+    "name": "Dr. Emily Roberts"
+  }, {
+    "img": "img/testimonials/06.jpg",
+    "text": "\"With HealthPredictAI, we can now predict health outcomes more effectively and provide personalized care for our patients.\"",
+    "name": "Dr. Robert Davis"
+  },
+  
+  {
+    "img": "img/testimonials/04.jpg",
+    "text": "\"As a healthcare provider, HealthPredictAI has made our workflows more efficient by offering reliable, AI-based disease risk predictions.\"",
+    "name": "Dr. John Smith"
+  },
+  {
+    "img": "img/testimonials/05.jpg",
+    "text": "\"The platform’s AI models and blockchain integration are game-changers, ensuring both predictive accuracy and data privacy in healthcare.\"",
+    "name": "Dr. Alice Wong"
+  }
+ 
+],
+
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "PATHAN KHALEEDH KHAN",
+      "job": "Team Lead"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "THIRUVIDHI REVANTH",
+      "job": "Developer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
+      "name": "YERRAPOTHU DHARANI",
       "job": "Senior Designer"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
+      "name": "RAMAYANAM SAI TEJA",
       "job": "Project Manager"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Sree Vidyanikethan Engineering College,Tirupati,Andhra Pradesh,India ",
+    "phone": "+91 1234567890",
+    "email": "studentdeveloper@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+"Features": [
+  {
+    "icon": "fa fa-comments-o",
+    "title": "AI-Powered Predictions",
+    "text": "Accurate disease risk analysis using advanced AI models."
+  },
+  {
+    "icon": "fa fa-shield",
+    "title": "Blockchain Security",
+    "text": "Ensures secure and tamper-proof storage of health data."
+  },
+  {
+    "icon": "fa fa-heartbeat",
+    "title": "Personalized Insights",
+    "text": "Tailored healthcare recommendations based on individual data."
+  },
+  {
+    "icon": "fa fa-lock",
+    "title": "Data Privacy",
+    "text": "Protects sensitive health information with cutting-edge encryption."
+  }
+]
+
 }

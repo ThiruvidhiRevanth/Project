@@ -156,8 +156,9 @@ const UserAccount = () => {
   useEffect(() => {
     const init = async () => {
       try {
-        const web3Instance = new Web3(Web3.givenProvider || 'http://127.0.0.1:7545');
+        const web3Instance = new Web3(Web3.givenProvider || 'HTTP://127.0.0.1:7545');
         setWeb3(web3Instance);
+        alert("mkweb3",web3);
 
         const accounts = await web3Instance.eth.getAccounts();
         setAccount(accounts[0]);
@@ -170,7 +171,7 @@ const UserAccount = () => {
         );
         setContract(contractInstance);
       } catch (error) {
-        console.error('Error loading web3 or contract:', error);
+        alert('Error loading web3 or contract:', error);
       }
     };
     init();

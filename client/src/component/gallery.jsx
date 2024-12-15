@@ -8,8 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Explore the core features and applications of HealthPredictAI, showcasing our innovative AI and blockchain solutions for predictive healthcare.
           </p>
         </div>
         <div className="row">
